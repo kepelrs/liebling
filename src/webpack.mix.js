@@ -27,7 +27,7 @@ mix.js('js/polyfill.js', 'js/')
   .setPublicPath('../assets')
   .setResourceRoot('/assets')
   .browserSync({
-    proxy: "localhost:2368",
+    proxy: "192.168.99.100:2368",
     files: [
       'js/**/*.js',
       'sass/**/*.scss',
